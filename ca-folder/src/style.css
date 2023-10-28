@@ -1,0 +1,294 @@
+*{
+  margin:0;
+  font-style: italic; 
+ 
+}
+body{
+  overflow-x: hidden;
+}
+/*Home*/
+#head1{
+  text-align: center;
+  color:rgb(255, 30, 30);
+  margin-top: 1rem;
+}
+#para1{
+  
+  font-style: normal;
+ font-size: 2.5rem;
+   margin-left: 110vh; 
+  margin-top: -25rem;
+  color: rgb(241, 10, 10);
+}
+#para2{
+  margin-left:117vh;
+  font-size: 25px;
+}
+#Button1{
+  margin-left: 135vh;
+  margin-top: 3rem;
+  background-color: rgba(175,0,42,0.8);
+}
+#Button1:active{
+  background-color: white;
+}
+#card1{
+  margin-top: 3rem;
+  margin-left: 80px;
+  
+}
+#card2{
+  margin-left: 31rem;
+  margin-top: -26rem;
+}
+#card3{
+  margin-left: 57rem;
+  margin-top: -26rem;
+}
+#slide{
+  width: 50%;
+  margin-top: 5rem;
+  margin-left: 1rem;
+  
+}
+#head3{
+  margin-top: 18rem;
+  margin-left: 29px;
+  font-size: 40px;
+} 
+
+
+
+
+
+/*Navigation*/
+@media (max-width: 1000px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
+}
+navbar-mobile {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  transition: 0.3s;
+  z-index: 999;
+  margin-top: 0;
+}
+
+.navbar-mobile .mobile-nav-toggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.navbar-mobile Nav.Link{
+  display: block;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  bottom: 45px;
+  left: 15px;
+  padding: 10px 0;
+  overflow-y: auto;
+  transition: 0.3s;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar-mobile Nav.Link {
+  padding: 12px 20px;
+}
+
+.navbar-mobile Nav.Link+Nav.Link {
+  margin: 0;
+}
+
+.navbar-mobile a,
+.navbar-mobile a:focus {
+  font-size: 16px;
+  position: relative;
+}
+.navbar:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+  opacity: 1
+  
+  
+}
+#navigation{
+  background-color:rgba(175,0,42,0.8) ;
+  width: 100%;
+  height: 50px;
+  font-size: 25px;
+  justify-content: center;
+  
+  
+}
+.navbar{
+  color:rgb(255, 255, 255);
+  
+
+}
+
+
+/*Create*/
+
+
+form{
+  border: 1px solid black;
+  max-width: 500px;
+  height: 400px;
+  padding-top: 5rem;
+  margin-top: 3rem;
+  text-align: center;
+  background-color:rgba(175,0,42,0.9);
+  border-radius: 50px;
+  padding-right: 5rem;
+  /* margin-left: 34rem; */
+  
+}
+
+.div2{
+  padding-top: 1rem;
+  
+}
+.div1{
+  background-image: url(./image/bg10.jpg);
+   height:95vh; 
+ background-size: cover;
+ background-repeat: no-repeat;
+ margin-top: -1rem;
+
+ 
+ 
+}
+#head2,#head4,#head5{
+  color:white;
+  margin-top: -3rem;
+}
+#head5,#head4{
+  margin-left:5rem;
+}
+.head2{
+  color:white;
+  margin-top: -3rem;
+}
+.create{
+  background-color: aliceblue;
+  color:rgba(175,0,42,0.8);
+  margin-left: 3rem;
+  
+  
+  }
+  .create1{
+    background-color: aliceblue;
+  color:rgba(175,0,42,0.8);
+  
+  }
+  .label,.label2,.label3{
+    color: white;
+    font-size: 20px;
+    margin-top: -8px;
+
+}
+.label{
+  padding-top: 3rem;
+}
+.label4{
+  color: white;
+  font-size: 20px;
+  padding-top: 1rem;
+  
+
+}
+.label52{
+  color: white;
+  font-size: 20px;
+  padding-top: 3rem;
+
+}
+
+   
+#list{
+  margin-top: 3rem;
+  width: 30%;
+  /* margin-left:35rem; */
+  text-align: center;
+  background-color:rgba(175,0,42,0.8);
+  color: white;
+
+}
+#block{
+   margin-top: 1rem; 
+  width: 20%;
+  
+  /* margin-left:40rem; */
+  text-align: center;
+  background-color:rgba(175,0,42,0.);
+}
+.form1{
+  border: 1px solid black;
+  max-width: 500px;
+  height: 400px;
+  padding-top: 5rem;
+  margin-top: 2rem;
+  text-align: center;
+  background-color:rgba(175,0,42,0.8);
+  border-radius: 50px;
+  padding-right: 5rem;
+  
+  /* margin-left: 34rem; */
+  }
+  
+  
+ 
+  
+ 
+
+
+
+/*Alldata*/
+.alldatacard{
+  width: 80%;
+  margin-left: 15%;
+  margin-top: 30px;
+  
+}
+.allh1{
+  margin-left: 10%;
+  margin-top: -5rem;
+  color: white;
+}
+ul{
+  list-style-type:none;
+}
+#form2{
+  margin: auto;
+  height: fit-content;
+ border: 1px solid black;
+  max-width:fit-content;
+  /* height: 500px; */
+  padding-top: 5rem;
+  margin-top: 1rem;
+  text-align: center;
+  background-color:rgba(175,0,42,0.8);
+  border-radius: 50px;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+  /* margin-left: 34rem; */
+}
+.div3{
+  background-image: url(./image/bg10.jpg);
+  height:105vh; 
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: -1rem;
+
+}
+.div4{
+  padding-top: 1rem;
+}
